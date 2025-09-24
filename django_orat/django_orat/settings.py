@@ -55,7 +55,7 @@ ROOT_URLCONF = 'django_orat.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates' / 'app_orat'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
